@@ -22,6 +22,7 @@ module.exports = {
         100: "#f5f5f5",
         200: "#ededed",
         300: "#c0c0c0",
+        400: "d3d3d3",
       },
       black: {
         500: "#34353e",
@@ -60,13 +61,16 @@ module.exports = {
         400: "#cf581c",
       },
 
-
     },
     extend: {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'gradient-primary-disabled': 'linear-gradient(125.94deg, #D72334 5%, #821325 31%)'
+      },
+      gradientColorStops: {
+        'primary': '#D72334 37.91%, #821325 104.64%',
       },
     },
   },
