@@ -22,7 +22,8 @@ module.exports = {
         100: "#f5f5f5",
         200: "#ededed",
         300: "#c0c0c0",
-        400: "d3d3d3",
+        400: "#d3d3d3",
+        500: "#fefefe"
       },
       black: {
         500: "#34353e",
@@ -71,6 +72,16 @@ module.exports = {
       },
       gradientColorStops: {
         'primary': '#D72334 37.91%, #821325 104.64%',
+      },
+      borderWidth: {
+        DEFAULT: '1px',
+        '0': '0',
+        '1': '1.5px',
+        '2': '2px',
+        '3': '3px',
+        '4': '4px',
+        '6': '6px',
+        '8': '8px',
       },
     },
   },
