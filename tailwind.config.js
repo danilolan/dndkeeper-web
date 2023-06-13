@@ -16,6 +16,9 @@ module.exports = {
       xl: "1280px",
       xxl: "1536px",
     },
+    fontFamily:{
+      sans: ['var(--font-montserrat)']
+    },
     colors: {
       primary: "#d72334",
       white: {
@@ -23,7 +26,8 @@ module.exports = {
         200: "#ededed",
         300: "#c0c0c0",
         400: "#d3d3d3",
-        500: "#fefefe"
+        500: "#fefefe",
+        600: "#ffffff",
       },
       black: {
         500: "#34353e",
