@@ -19,6 +19,9 @@ module.exports = {
     fontFamily:{
       sans: ['var(--font-montserrat)']
     },
+    dropShadow: {
+      primary: '0px 4px 4px rgba(0, 0, 0, 0.25)'
+    },
     colors: {
       primary: "#d72334",
       white: {
@@ -88,6 +91,9 @@ module.exports = {
         '6': '6px',
         '8': '8px',
       },
+      fontSize: {
+        xxs: '0.6rem',
+      }
     },
   },
   plugins: [],

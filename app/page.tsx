@@ -1,6 +1,5 @@
 'use client';
 
-import { Button } from "./components/atoms/Button";
 import { Card } from "./components/molecules/Card";
 
 export default function Home() {
