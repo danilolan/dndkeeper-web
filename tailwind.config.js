@@ -16,6 +16,12 @@ module.exports = {
       xl: "1280px",
       xxl: "1536px",
     },
+    fontFamily:{
+      sans: ['var(--font-montserrat)']
+    },
+    dropShadow: {
+      primary: '0px 4px 4px rgba(0, 0, 0, 0.25)'
+    },
     colors: {
       primary: "#d72334",
       white: {
@@ -23,9 +29,11 @@ module.exports = {
         200: "#ededed",
         300: "#c0c0c0",
         400: "#d3d3d3",
-        500: "#fefefe"
+        500: "#fefefe",
+        600: "#ffffff",
       },
       black: {
+        400: "#8e8e8e",
         500: "#34353e",
         600: "#27282f",
         700: "#282a2e",
@@ -83,6 +91,9 @@ module.exports = {
         '6': '6px',
         '8': '8px',
       },
+      fontSize: {
+        xxs: '0.6rem',
+      }
     },
   },
   plugins: [],
